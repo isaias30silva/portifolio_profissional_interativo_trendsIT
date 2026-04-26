@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+.header {
+  background-color: #222;
+  color: #fff;
+  padding: 1rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  gap: 1rem;
+}
+
+section {
+  padding: 2rem;
+}
+
+.sobre-container {
+  margin-top: 1rem;
+}
+
+.projetos-container {
+  margin-top: 1rem;
+}
+
+.projeto-card {
+  background-color: #fff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+
+.contato-lista {
+  margin-top: 1rem;
+}
+
+.footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
