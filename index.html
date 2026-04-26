@@ -6,10 +6,10 @@
     <title>Portfólio | Isaias Silva</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <h1>Isaias Silva</h1>
-        <ul>
+    <header class="header">
+      <nav class="nav">
+        <h1 class="logo">Isaias Silva</h1>
+        <ul class="nav-list">
           <li><a href="#sobre">Sobre</a></li>
           <li><a href="#projetos">Projetos</a></li>
           <li><a href="#contato">Contato</a></li>
@@ -17,63 +17,106 @@
       </nav>
     </header>
     <main>
-      <section id="sobre">
+      <section id="sobre" class="sobre">
         <h2>Sobre Mim</h2>
-        <img src="images/me.jpg" alt="Foto de perfil Isaias Silva" />
-        <p>Estudante de Engenharia de Computação - 8º Semestre - UNIVESP</p>
-      </section>
-      <section id="projetos">
-        <h2>Projetos</h2>
-        <article>
-          <h3>Projeto 1 - SkilMatch</h3>
-          <p>
-            O <b>SkillMatch</b> é um
-            <b>Banco de Trocas de Conhecimento</b> desenvolvido como aplicação
-            web para o curso de Desenvolvimento Full Stack da
-            <b>Escola Atlântico Avanti</b>.
-          </p>
-          <a
-            href="https://github.com/isaias30silva/avanti-dfs-02"
-            target="_blank"
-            >Acessar o repositório do projeto</a
-          >
-        </article>
 
-        <article>
-          <h3>Projeto 2 - "To-Do-List" em JavaScript</h3>
-          <p>
-            O projeto <b>TO-DO List</b> consiste na apresentação de uma tela que
-            permite a inserção e exclusão de tarefas com a manipulação de
-            elementos e eventos por meio do DOM (Document Object Model),
-          </p>
-          <a
-            href="https://github.com/isaias30silva/to-do-list-javascript"
-            target="_blank"
-            >Acessar o repositório do projeto</a
-          >
-        </article>
+        <div class="sobre-container">
+          <img
+            src="images/me.jpg"
+            alt="Foto de Perfil de Isaias Silva"
+            class="sobre-imagem"
+          />
+
+          <div class="sobre-texto">
+            <p>Olá! Meu nome é <strong>Isaias Silva</strong>.</p>
+            <p>
+              Sou estudante do curso de Engenharia de Computação pela UNIVESP -
+              Universidade Virtual do Estado de São Paulo e atualmente estou no
+              8º semestre, com formação prevista para o segundo semestre de
+              2027.
+            </p>
+            <p>
+              Atualmente estou aprendendo e exercitando o uso tecnologias como
+              <strong>HTML, CSS, JavaScript, Node, Java e Python</strong>
+              e desenvolvendo projetos práticos para consolidar meu conhecimento
+              e realizando cursos em diversas plataformas para estar sempre
+              atualizado sobre as inovações do mercado tech.
+            </p>
+            <p>
+              Meu objetivo profissional é atuar como
+              <strong>Desenvolvedor FullStack</strong>, portanto, estou em
+              constante <strong>evolução</strong>, aprendendo novas tecnologias
+              e descobrindo aptidões no vasto universo da
+              <strong>tecnologia</strong> visando sempre contribuir com soluções
+              eficientes e bem estruturadas.
+            </p>
+          </div>
+        </div>
       </section>
-      <section id="contato">
+      <section id="projetos" class="projetos">
+        <h2>Projetos</h2>
+
+        <div class="projetos-container">
+          <article class="projeto-card">
+            <h3>Projeto 1 - SkilMatch</h3>
+            <p>
+              O <strong>SkillMatch</strong> é um
+              <strong>Banco de Trocas de Conhecimento</strong> desenvolvido como
+              aplicação web para o curso de Desenvolvimento Full Stack da
+              <strong>Escola Atlântico Avanti</strong>.
+            </p>
+            <a
+              href="https://github.com/isaias30silva/avanti-dfs-02"
+              target="_blank"
+            >
+              Ver no GitHub
+            </a>
+          </article>
+
+          <article class="projeto-card">
+            <h3>Projeto 2 - "To-Do-List" em JavaScript</h3>
+            <p>
+              O projeto <strong>TO-DO List</strong> consiste na apresentação de
+              uma tela que permite a inserção e exclusão de tarefas com a
+              manipulação de elementos e eventos por meio do DOM (Document
+              Object Model).
+            </p>
+            <a
+              href="https://github.com/isaias30silva/to-do-list-javascript"
+              target="_blank"
+            >
+              Ver no GitHub
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section id="contato" class="contato">
         <h2>Contato</h2>
-        <p>Email: isaias30silva@gmail.com</p>
-        <p>
-          LinkedIn:
-          <a
-            href="https://www.linkedin.com/in/isaias-menezes-silva/"
-            target="_blank"
-          >
-            Isaias Silva
-          </a>
-        </p>
-        <p>
-          GitHub:
-          <a href="https://github.com/isaias30silva" target="_blank">
-            isaias30silva
-          </a>
-        </p>
+
+        <p>Ficou interessado no meu trabalho? Entre em contato:</p>
+
+        <ul class="contato-lista">
+          <li>Email: isaias30silva@gmail.com</li>
+          <li>
+            LinkedIn:
+            <a
+              href="https://www.linkedin.com/in/isaias-menezes-silva/"
+              target="_blank"
+            >
+              Isaias Silva
+            </a>
+          </li>
+          <li>
+            GitHub:
+            <a href="https://github.com/isaias30silva" target="_blank">
+              isaias30silva
+            </a>
+          </li>
+        </ul>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <p>© 2026 - Isaias Silva. Todos os direitos reservados.</p>
     </footer>
   </body>
