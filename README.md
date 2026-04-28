@@ -11,7 +11,7 @@ técnicas e projetos desenvolvidos pelo estudante.
 
 ## 🌐 Acesse o projeto
 
-🔗 [(insira aqui o link do GitHub Pages)](https://isaias30silva.github.io/portifolio_profissional_interativo_trendsIT/)
+🔗 https://isaias30silva.github.io/portifolio_profissional_interativo_trendsIT/
 
 ---
 
