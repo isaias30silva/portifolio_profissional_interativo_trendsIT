@@ -27,10 +27,10 @@ https://github.com/isaias30silva/portifolio_profissional_interativo_trendsIT
 Construir um site estático profissional utilizando **HTML5 e CSS3**,
 capaz de:
 
-- Apresentar informações profissionais de forma clara e organizada\
-- Servir como vitrine de projetos\
-- Ser acessado publicamente por recrutadores\
-- Carregar rapidamente e manter consistência visual\
+- Apresentar informações profissionais de forma clara e organizada
+- Servir como vitrine de projetos
+- Ser acessado publicamente por recrutadores
+- Carregar rapidamente e manter consistência visual
 - Demonstrar domínio dos fundamentos do desenvolvimento web
 
 ---
